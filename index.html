@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Clothes Company Portofolio</title>
+  <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body onload="Footer() ;Carousel()">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid" id="navbar">
+      <a class="navbar-brand" href="index.html"><img src="./img/logo.png" width="50px" alt="The Tough Tiger"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Our Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="./mens.html">Mens Products</a></li>
+              <li><a class="dropdown-item" href="./womens.html">Womens Products</a></li>
+              <li><a class="dropdown-item" href="./other.html">Other Products</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactus.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end -->
+
+  <div class="container-fluid" id="banner-text" style="padding: 2rem !important;">
+    <div class="row">
+      <div class="col-md-12" >
+        <h1 class=" text-wrap " style="font-size:3rem ;font-weight: 500;display: inline-block !important;color:#000;font-family: 'Poppins', sans-serif; ">Trust, Quality,<br/> Excellence.</h1>
+        <p class="fs-6 text-wrap" style="font-family: 'Poppins', sans-serif">The Tough Tiger is a leading manufacturer of high-quality fabrics and apparel. Our mission is to provide comfortable, durable, and stylish clothing to people of all ages. We strive to build long-term relationships with our customers, suppliers, and partners through our commitment to excellence, innovation, and sustainability.</p>
+      </div>
+    </div>
+</div>
+
+
+  <!-- Carousel wrapper -->
+  <div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel" data-mdb-carousel-init "  style="padding: 2rem!important;">  
+</div>
+<script>
+  // Initialization for ES Users
+import { Carousel, initMDB } from "mdb-ui-kit";
+
+initMDB({ Carousel });
+</script>
+<!-- Carousel wrapper -->
+
+
+<div class="container-fluid" >
+  <div class="row" style="padding: 2rem !important;align-items: center;">
+    <div class="col-md-6"  >
+      <p class="fs-6">ABOUT US</p>
+      <h1 class="fs-2" style="color: #000;">The Tough Tiger, A Diversified Group Shaping A Stronger & Better Tomorrow.</h1>
+      <p class="fs-4">The Tough Tiger is a leading manufacturer of high-quality fabrics and apparel. Our mission is to provide comfortable, durable, and stylish clothing to people of all ages. We strive to build long-term relationships with our customers, suppliers, and partners through our commitment to excellence, innovation, and sustainability.</p>
+      <p class="fs-6" style="color: red;font-weight: 500;">Know More -></p>
+      <div class="line" style="width: 15%;color: red; height:4px; background-color: red; border-radius: 10px;"></div>
+
+    </div>
+    <div class="col-md-6" >
+      <img src="./img/rightposter.jpg"  width="100%" >
+      <img src="./img/rightimageup.png" alt="" style="position: absolute;top: 1600px;right: 600px;width: 10%;">
+      <h3 class="fs-5" style="position: absolute;top: 1660px;right: 570px;width: 10%;color:white">Visit Us Now</h3>
+    </div>
+  </div>
+</div>
+
+    <!-- Footer -->
+
+    <div class=" container-fluid my-5" style=" padding:0px !important;margin:0px !important;" id="footer" >
+
+
+  </div>
+
+
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <script src="footer.js"></script>
+  <script src="carousel.js"></script>
+</body>
+
+</html>
