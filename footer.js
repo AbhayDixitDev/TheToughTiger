@@ -10,8 +10,8 @@ function Footer(){
             <div class="col-lg-4 col-md-12 mb-4 mb-md-0" style="font-family:poppins">
               <h5 class="text-uppercase mb-4">About company</h5>
     
-              <p>
-                <span style="color: red;font-size: large;font-family:poppins">The Tough Tiger</span> is a leading manufacturer of high-quality fabrics and apparel. Our mission is to provide comfortable, durable, and stylish clothing to people of all ages. We strive to build long-term relationships with our customers, suppliers, and partners through our commitment to excellence, innovation, and sustainability.
+              <p style="text-align: justify;">
+                <span style="color: red;font-size: large;font-family:poppins;">The Tough Tiger</span> is a leading manufacturer of high-quality fabrics and apparel. Our mission is to provide comfortable, durable, and stylish clothing to people of all ages. We strive to build long-term relationships with our customers, suppliers, and partners through our commitment to excellence, innovation, and sustainability.
               </p>
     
               <div class="mt-4">

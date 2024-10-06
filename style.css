@@ -30,4 +30,5 @@
 
 #cardhover:hover{
     background-image: url(./img/imghover.svg);
+    background-size: cover;
 }
